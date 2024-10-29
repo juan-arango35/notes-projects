@@ -3,7 +3,7 @@
 Este proyecto, desarrollado en equipo por tres integrantes, permite al usuario registrarse e iniciar sesión para acceder a un espacio privado de notas. Tras autenticarse, el usuario puede crear, editar y eliminar notas, además de fijar aquellas más importantes en una sección especial de la página, optimizando el acceso a la información prioritaria. La aplicación utiliza LocalStorage para mantener las notas y preferencias guardadas localmente. Durante el desarrollo, adquirí una valiosa experiencia en el flujo de trabajo colaborativo, fortaleciendo habilidades de coordinación y gestión de tareas en equipo..
 
 #DEMO:
-[Demo de la Aplicación](https://projectsnotes.netlify.app/)
+[Demo de la Aplicación](https://projectsnotes.netlify.app/){:target="_blank"}
 
 ---
 
