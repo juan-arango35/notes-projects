@@ -28,7 +28,7 @@ Este sistema de autenticación permite al usuario iniciar sesión mediante un fo
 ### 2. 📝 Crear Nota
 La aplicación permite al usuario crear notas personalizadas de forma rápida y sencilla, almacenándolas en LocalStorage para un acceso persistente. Cada nota se guarda localmente, lo que garantiza que la información esté disponible incluso al recargar la página.
 
-<img  src="./public/crearnota.gif" alt="video del contador" width="600"/>
+<img  src="./public/creanota.gif" alt="video del contador" width="600"/>
 
 ### 3. ✏️  Editar Nota
 
@@ -45,6 +45,8 @@ La aplicación permite enviar notas a una papelera de reciclaje, donde se almace
 ### 5. 🗑📌 Fijar Nota
 
 La aplicación permite marcar notas importantes para destacarlas en una sección especial de la página. Las notas fijadas se mantienen accesibles en una ubicación prioritaria, facilitando al usuario el acceso rápido a información relevante. Esta funcionalidad garantiza que las notas más importantes siempre estén visibles y a mano.
+
+<img  src="./public/fojarnota.gif" alt="video del contador" width="600"/>
 
 ### 6. 🗑📌 Tecnologias Utilizadas
 
