@@ -66,4 +66,7 @@ La aplicación permite marcar notas importantes para destacarlas en una sección
   
 Estas tecnologías en conjunto permiten construir una aplicación ágil, con una gestión de estilos eficiente y un almacenamiento local persistente para mejorar la experiencia del usuario.
 
+### 7. 😊 AGRADECIMIENTOS:
+Quiero expresar mi sincero agradecimiento a Codeable, mi academia, por brindarme las herramientas y conocimientos necesarios para desarrollar este proyecto. También quiero agradecer a mis compañeros de equipo por su constante apoyo, colaboración y motivación durante todo el proceso. Sin su ayuda, este trabajo no habría sido posible. ¡Gracias a todos por hacer de esta experiencia un aprendizaje valioso y enriquecedor!
+
 
