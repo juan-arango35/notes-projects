@@ -23,7 +23,7 @@ npm run dev
 ### 1. 🔑 Login
 Este sistema de autenticación permite al usuario iniciar sesión mediante un formulario simple, almacenando la información de sesión en LocalStorage. Así, el estado de usuario autenticado se conserva incluso al recargar la página, ofreciendo una experiencia de uso fluida y persistente sin necesidad de una base de datos externa.
 
-<img  src="./public/login.gif" alt="video del contador" width="700"/>
+<img  src="./public/login.gif" alt="video del contador" width="710"/>
 
 ### 2. 📝 Crear Nota
 La aplicación permite al usuario crear notas personalizadas de forma rápida y sencilla, almacenándolas en LocalStorage para un acceso persistente. Cada nota se guarda localmente, lo que garantiza que la información esté disponible incluso al recargar la página.
