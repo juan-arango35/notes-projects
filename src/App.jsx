@@ -2,9 +2,6 @@ import { useState } from 'react';
 import LoginPage from './components/pages/LoginPage/LoginPage';
 import MainPage from './components/pages/MainPage/MainPage';
 import './styles/App.css';
-import NoteForm from './components/common/NoteForm/NoteForm';
-import NotesView from './components/common/NotesView/NotesView';
-import { func } from 'prop-types';
 
 const LOGIN = 'login';
 const SESSION = 'session';

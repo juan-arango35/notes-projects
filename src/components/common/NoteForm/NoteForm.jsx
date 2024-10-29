@@ -3,6 +3,7 @@ import styled from './NoteForm.module.css';
 import PropTypes from 'prop-types';
 import { saveNotaApi } from "../../../api/saveNotaApi";
 import { patchNotaApi } from '../../../api/patchNotaApi';
+
 import ColorPicker from '../ColorPicker/ColorPicker';
 import pinnIcon from '../../../assets/Pinn.svg';
 import pinnFilledIcon from '../../../assets/PinnFilled1.svg';

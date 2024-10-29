@@ -1,9 +1,9 @@
-import styled from './FooterNote.module.css';
-import ColorPicker from '../ColorPicker/ColorPicker';
-import EditModal from '../EditModal/EditModal';
-import PropTypes from 'prop-types';
-import { useState } from 'react';
-import NoteForm from '../NoteForm/NoteForm';
+import styled from "./FooterNote.module.css";
+import ColorPicker from "../ColorPicker/ColorPicker";
+import EditModal from "../EditModal/EditModal";
+import PropTypes from "prop-types";
+import { useState } from "react";
+import NoteForm from "../NoteForm/NoteForm";
 
 const FooterNote = ({
   note,

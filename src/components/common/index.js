@@ -3,5 +3,5 @@ export { default as ColorPicker } from '@components/common/ColorPicker/ColorPick
 export { default as Header } from '@components/common/Header/Header';
 export { default as Note } from '@components/common/Note/Note'; */
 
-import Button from '@components/ui/Button/Button';
+import Button from '../common/Button/Button';
 export { Button };
