@@ -1,9 +1,9 @@
 import styles from './MainPage.module.css';
-import Header from '@components/common/Header/Header';
-import Menu from '@components/common/Menu/Menu';
-import NotesView from 'src/components/common/NotesView/NotesView';
+import Header from "../../common/Header/Header"
+import Menu from"../../common/Menu/Menu"
+import NotesView from "../../common/NotesView/NotesView";
 import { useState, useEffect } from 'react';
-import TrashView from 'src/components/common/TrashView/TrashView';
+import TrashView from '../../common/TrashView/TrashView';
 
 //agrege la prop que se manada al boton del header
 const MainPage = ({redirectToLogin}) => {

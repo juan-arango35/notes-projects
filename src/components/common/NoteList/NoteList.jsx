@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import styles from './NoteList.module.css';
 import FooterNote from '../FooterNote/FooterNote';
 import Note from '../Note/Note';
-import { patchNotaApi } from 'src/api/patchNotaApi';
+import { patchNotaApi } from '../../../api/patchNotaApi';
 import PropTypes from 'prop-types';
-import { deleteNotaApi } from 'src/api/deleteNotaApi';
+import { deleteNotaApi } from '../../../api/deleteNotaApi';
 
 const NoteList = ({ onSubmitNote, notesRaw, username, variant }) => {
   const [notes, setNotes] = useState([]);

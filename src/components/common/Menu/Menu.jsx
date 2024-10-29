@@ -1,7 +1,7 @@
 import styles from './Menu.module.css';
 import PropTypes from 'prop-types';
-import vectorSVG from '@assets/Vector.svg';
-import trashSVG from '@assets/TrashMenu.svg';
+import vectorSVG from '../../../assets/Vector.svg';
+import trashSVG from '../../../assets/TrashMenu.svg';
 
 const Menu = ({ onTabChange, currentTab }) => {
   const handleClick = (id) => {

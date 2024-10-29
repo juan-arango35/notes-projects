@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import NoteForm from '../NoteForm/NoteForm';
 import NoteList from '../NoteList/NoteList';
-import { getNotesApi } from 'src/api/getNotasApi';
+import { getNotesApi } from '../../../api/getNotasApi';
 import PropTypes from 'prop-types';
 import styles from './NotesView.module.css';
 
