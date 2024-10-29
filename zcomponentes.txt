@@ -1,0 +1,37 @@
+
+
+----shared
+  button        ------- Arturo
+  header //header de todas las views ------- Juan joel
+  colorPicker ---- Franks
+  Note ----- Arturo
+  footerNote //boton colorPicker y delete ------Juan joel
+  footerTrash  ------Franks
+
+----componentes mas grandes
+login --- Arturo
+viewNotes
+viewTrash
+NoteForm  //formulario crear una nota
+NoteList
+Menu
+
+----Modal
+Editar x
+
+-bonus
+Pinned // usa NoteList
+Others // usa NoteList
+
+//CONFIGURACION ADICIONAL A jsconfig.json
+Ahora no da problemas en caso de no autocompletar la ruta de los archivos
+usar el siguiente atributo "include" en jsconfig.json
+
+"include": [
+    "src",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.css",
+    "src/**/*.json",
+    "src/**/*.svg"
+]
