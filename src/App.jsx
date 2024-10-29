@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import LoginPage from './components/pages/LoginPage/LoginPage';
+import MainPage from './components/pages/MainPage/MainPage';
+import './styles/App.css';
+import NoteForm from './components/common/NoteForm/NoteForm';
+import NotesView from './components/common/NotesView/NotesView';
+import { func } from 'prop-types';
 
-function App() {
-  const [count, setCount] = useState(0)
+const LOGIN = 'login';
+const SESSION = 'session';
 
+const App = () => {
+  const [currentPage, setCurrentPage] = useState(LOGIN);
+
+  //manejar la respuesta de LoginPage
+  //      true -> username invalido
+  //      false -> username inicia session
+  const handleSubmit = (response) => {
+    console.log('Inicio session?:', response);
+    setCurrentPage(response ? SESSION : LOGIN);
+    console.log('currentPage:', currentPage);
+  };
+  function redirectToLogin(){
+    setCurrentPage(LOGIN)
+  }
+
+  
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {currentPage === LOGIN && <LoginPage submit={handleSubmit} />}
+      {currentPage === SESSION && <MainPage redirectToLogin={redirectToLogin} />}
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
