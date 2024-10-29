@@ -1,0 +1,31 @@
+.nav_item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 48px;
+  height: 4.8rem;
+  cursor: pointer;
+  padding: 0 16px;
+  gap: 20px;
+}
+.nav_item img {
+  width: 20px;
+  height: 16px;
+  fill: #18181b;
+}
+.nav_item span {
+  color: #18181b;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.25px;
+}
+/* .nav_item:hover {
+  background-color: var(--hover-color);
+} */
+.nav_active {
+  border-radius: 0px 25px 25px 0px;
+  background: #e5e5e5;
+}

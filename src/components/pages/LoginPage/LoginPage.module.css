@@ -1,0 +1,75 @@
+.containerLogin {
+  position: relative;
+  background-color: #fafafa;
+  height: 100vh;
+}
+.titleLogin {
+  position: absolute;
+  top: 144px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #18181b;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.25px;
+}
+
+.username {
+  color: #18181b;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.25px;
+  position: absolute;
+  top: 258px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.inputForm {
+  display: flex;
+  width: 241px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 16px;
+  border: 1px solid #18181b;
+  background: #fff;
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+}
+
+.enterButton {
+  display: flex;
+  width: 241px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 16px;
+  background: #18181b;
+  position: absolute;
+  top: 334px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  color: #fff;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+  letter-spacing: 0.25px;
+}

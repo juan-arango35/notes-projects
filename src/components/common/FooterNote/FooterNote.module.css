@@ -1,0 +1,117 @@
+.footer {
+  background-color: transparent;
+  display: flex;
+  width: 220px;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.color_button {
+  padding: 6px 6px;
+  border: none;
+  background-color: transparent;
+  background-image: url('../../../assets/ColorPalette.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.color_button:hover {
+  background-color: var(--hover-color);
+  opacity: 0.5;
+}
+
+.trash_button {
+  padding: 6px 6px;
+  border: none;
+  background: transparent;
+  background-image: url('../../../assets/Trash.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.trash_button:hover {
+  background-color: var(--hover-color);
+  opacity: 0.5;
+}
+
+.pinn_button {
+  padding: 6px 6px;
+  border: none;
+  background: transparent;
+  background-image: url('../../../assets/Pinn.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  width: 30px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.pinn_button:hover {
+  background-color: var(--hover-color);
+  opacity: 0.5;
+}
+
+.pinn_button_filled {
+  padding: 6px 6px;
+  border: none;
+  background: transparent;
+  background-image: url('../../../assets/PinnFilled1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  width: 30px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.pinn_button_filled:hover {
+  background-color: var(--hover-color);
+  opacity: 0.5;
+}
+
+.recover_button {
+  padding: 6px 6px;
+  border: none;
+  background: transparent;
+  background-image: url('../../../assets/Recover.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.recover_button:hover {
+  background-color: var(--hover-color);
+  opacity: 0.5;
+}
+
+.edit_button {
+  padding: 6px 6px;
+  border: none;
+  background: transparent;
+  background-image: url('../../../assets/Edit.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.edit_button:hover {
+  background-color: var(--hover-color);
+  opacity: 0.5;
+}

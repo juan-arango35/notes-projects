@@ -1,0 +1,18 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+  /* //padding: 20px; */
+  border-radius: 8px;
+}

@@ -1,0 +1,39 @@
+.list_item {
+  list-style: none;
+  height: 226px;
+  width: 250px;
+  padding: 16px;
+  color: var(--text-color);
+
+  border-radius: 8px;
+  position: relative;
+
+  /* border: 1px solid; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 158px;
+
+  /* border: 1px solid; */
+}
+
+.title {
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.25px;
+  padding-right: 15px;
+
+  /* border: 1px solid; */
+}
+.list_body {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+}

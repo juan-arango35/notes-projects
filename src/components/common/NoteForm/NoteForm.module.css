@@ -1,0 +1,110 @@
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 8px;
+  background: transparent;
+  width: 592px;
+  gap: 16px;
+  position: relative;
+}
+.contentForm * {
+  background-color: transparent;
+}
+
+.titleNotes {
+  color: #18181b;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.25px;
+  width: 560px;
+  border: none;
+}
+.titleNotes::placeholder {
+  color: #737373;
+}
+.titleNotes:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.bodyNotes {
+  width: 560px;
+  border: none;
+  color: #18181b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.25px;
+}
+.bodyNotes::placeholder {
+  color: #737373;
+}
+.bodyNotes:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.footerFormNotes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.agregarNota {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #18181b;
+  background-color: transparent;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+  letter-spacing: 0.25px;
+}
+.agregarNota:hover {
+  background-color: rgb(24, 24, 27, 0.4);
+  border-radius: var(--border-radius);
+}
+
+.color_button {
+  padding: 6px 6px;
+  border: none;
+  background-color: transparent;
+  background-image: url('../../../assets/ColorPalette.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.color_button:hover {
+  opacity: 0.5;
+}
+
+.pinn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 100%;
+  padding: 9px 11px;
+  cursor: pointer;
+}
+.pinn:hover {
+  background-color: var(--hover-color);
+  opacity: 0.5;
+}

@@ -1,0 +1,57 @@
+.list {
+  display: flex;
+  padding: 0px 32px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.itemNotes {
+  width: 252px;
+  height: 226px;
+  background-color: gray;
+  list-style: none;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.titleNote {
+  width: 100%;
+  height: auto;
+  color: #18181b;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+}
+
+.contentNotes {
+  height: 166px;
+}
+
+.bodyNotes {
+  color: #18181b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.25px;
+  height: 48px;
+}
+
+.titleSection {
+  align-self: flex-start;
+  padding-left: 32px;
+  color: #18181b;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+}

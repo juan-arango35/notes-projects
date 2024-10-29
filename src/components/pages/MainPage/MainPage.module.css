@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar {
+  height: 100%;
+  display: flex;
+ 
+
+  gap: 1px;
+}
+.aside {
+  width: 20%;
+  border: 1px solid var(--border-color);
+  background-color: #fafafa;
+}
+.content {
+  width: 80%;
+  padding: 48px 16px;
+  border: 1px solid var(--border-color);
+ background-color:#fafafa;
+}
