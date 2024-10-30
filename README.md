@@ -28,7 +28,7 @@ Este sistema de autenticación permite al usuario iniciar sesión mediante un fo
 ### 2. 📝 Crear Nota
 La aplicación permite al usuario crear notas personalizadas de forma rápida y sencilla, almacenándolas en LocalStorage para un acceso persistente. Cada nota se guarda localmente, lo que garantiza que la información esté disponible incluso al recargar la página.
 
-<img  src="./public/creanota.gif" alt="video del contador" width="900"/>
+<img  src="./public/creanota1.gif" alt="video del contador" width="900"/>
 
 ### 3. ✏️  Editar Nota
 
