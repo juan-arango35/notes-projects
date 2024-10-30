@@ -23,7 +23,7 @@ npm run dev
 ### 1. 🔑 Login
 Este sistema de autenticación permite al usuario iniciar sesión mediante un formulario simple, almacenando la información de sesión en LocalStorage. Así, el estado de usuario autenticado se conserva incluso al recargar la página, ofreciendo una experiencia de uso fluida y persistente sin necesidad de una base de datos externa.
 
-<img  src="./public/login1.gif" alt="video del contador" width="710"/>
+<img  src="./public/login1.gif" alt="video del contador" width="900"/>
 
 ### 2. 📝 Crear Nota
 La aplicación permite al usuario crear notas personalizadas de forma rápida y sencilla, almacenándolas en LocalStorage para un acceso persistente. Cada nota se guarda localmente, lo que garantiza que la información esté disponible incluso al recargar la página.
@@ -34,19 +34,19 @@ La aplicación permite al usuario crear notas personalizadas de forma rápida y 
 
 La aplicación permite modificar notas previamente creadas, facilitando la actualización de información importante. Los cambios se guardan automáticamente en LocalStorage, asegurando que los datos editados se mantengan tras recargar la página.
 
-<img  src="./public/editarnote.gif" alt="video del contador" width="700"/>
+<img  src="./public/editarnota1.gif" alt="video del contador" width="900"/>
 
 ### 4. 🗑️ Eliminar Nota
 
 La aplicación permite enviar notas a una papelera de reciclaje, donde se almacenan para una posible recuperación. Las notas en la papelera pueden ser restauradas en cualquier momento o eliminadas de forma definitiva según la decisión del usuario, proporcionando un control completo sobre la gestión y organización de la información.
 
-<img  src="./public/eliminarNote.gif" alt="video del contador" width="700"/>
+<img  src="./public/eliminarnota1.gif" alt="video del contador" width="700"/>
 
 ### 5. 🗑📌 Fijar Nota
 
 La aplicación permite marcar notas importantes para destacarlas en una sección especial de la página. Las notas fijadas se mantienen accesibles en una ubicación prioritaria, facilitando al usuario el acceso rápido a información relevante. Esta funcionalidad garantiza que las notas más importantes siempre estén visibles y a mano.
 
-<img  src="./public/fojarnota.gif" alt="video del contador" width="700"/>
+<img  src="./public/fijanota1.gif" alt="video del contador" width="700"/>
 
 ### 6. 🗑📌 Tecnologias Utilizadas
 
